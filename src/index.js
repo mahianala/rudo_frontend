@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:8000"
+axios.defaults.baseURL = "http://35.76.111.121:8000"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

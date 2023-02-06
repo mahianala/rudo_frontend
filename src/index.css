@@ -20,3 +20,12 @@ html {
   margin: 0;
   padding: 0;
 }
+
+html {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(238, 237, 235);
+}
+#root {
+  background-color: rgb(245, 245, 245);
+}

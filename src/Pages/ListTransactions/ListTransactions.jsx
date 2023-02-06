@@ -21,20 +21,22 @@ const ListTransactions = () => {
       });
   };
   useEffect(() => {
-    fetchTransactions()
+    fetchTransactions();
   }, []);
   return (
     <div className="page">
-      <h3>Transactions List</h3>
-      {transactions?.map((each) => (
-        <Transaction
-          amount={each?.amount}
-          isDebit={each?.type == "debit"}
-          created_at={each?.created_at}
-          transaction_id={each?.id}
-          fetchTransactions = {fetchTransactions}
-        />
-      ))}
+      <h2 className="mb-10">Transactions List</h2>
+      <div className="transactions">
+        {transactions?.map((each) => (
+          <Transaction
+            amount={each?.amount}
+            isDebit={each?.type == "debit"}
+            created_at={each?.created_at}
+            transaction_id={each?.id}
+            fetchTransactions={fetchTransactions}
+          />
+        ))}
+      </div>
     </div>
   );
 };

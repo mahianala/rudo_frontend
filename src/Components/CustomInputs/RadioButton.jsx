@@ -7,7 +7,7 @@ const RadioButton = ({ values, setValues, label, name, value ,required}) => {
     setValues({ ...values, [name]: value });
   };
   return (
-    <div className="flex align-center">
+    <div className="flex align-center mb-10">
       <input
         onChange={inputChangeHandler}
         type="radio"
@@ -16,7 +16,7 @@ const RadioButton = ({ values, setValues, label, name, value ,required}) => {
         required={required}
         checked ={values[name]===value||false}
       />
-      <p>{label}</p>
+      <p className="ml-5">{label}</p>
     </div>
   );
 };

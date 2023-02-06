@@ -3,6 +3,7 @@
     align-items: center;
     grid-gap: 20px;
     padding: 30px;
+    justify-content: space-between;
 }
 .nav_root li {
     list-style: none;
@@ -16,4 +17,8 @@
 .nav_root li.active a {
     font-weight: bold;
     color: black !important;
+}
+.gap-10{
+    gap: 20px;
+    grid-gap: 20px;
 }
