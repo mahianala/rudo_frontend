@@ -1,0 +1,30 @@
+.page {
+    padding: 30px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.transaction_create {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    max-width: 600px;
+
+}
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+
+.radio_group {
+    grid-gap: 20px;
+}
+
+.mb-10{
+    margin-bottom: 20px;
+}

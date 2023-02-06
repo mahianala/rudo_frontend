@@ -1,0 +1,19 @@
+.nav_root {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 30px;
+}
+.nav_root li {
+    list-style: none;
+    color: rgb(94, 94, 94);
+}
+
+.nav_root a {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+.nav_root li.active a {
+    font-weight: bold;
+    color: black !important;
+}

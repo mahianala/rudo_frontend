@@ -1,0 +1,38 @@
+.transaction {
+    display: flex;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 7px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.transaction  .data{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    grid-gap: 20px;
+}
+.amount {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.amount.credit {
+    color: green;
+}
+.amount.debit {
+    color: red;
+}
+.created_at{
+    color: gray;
+}
+.trans_id {
+    font-weight: 500;
+}
+
+.actions .delete svg {
+    color: red;
+}
+.actions svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
